@@ -110,7 +110,7 @@ function App() {
 
   useEffect(() => {
     if (token) fetchResumeHistory();
-  }, [token, fetchResumeHistory]);
+  }, [token]);
 
   // LinkedIn post
   const generatePost = async () => {
